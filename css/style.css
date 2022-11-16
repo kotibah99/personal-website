@@ -753,6 +753,7 @@ text-align: center;
 
 
 
+
 /*contact*/
 
 /*responsive*/
@@ -770,6 +771,12 @@ text-align: center;
     {
         display: block;
         margin-left: 0;
+    }
+    .style-switcher .style-switcher-toggler,
+    .style-switcher .day-night
+    {
+        color: red;
+        text-align: center;
     }
 }
 
@@ -805,13 +812,23 @@ text-align: center;
      .about .about-content .skills,
     .about .about-content .personal-info
     {
-        flex: 0 0 90%;
-        max-width: 90%;
+        flex: 0 0 100%;
+        max-width: 100%;
     }
     
 }
 @media (max-width: 730px) {
-   
+    .contact .contact-form .col-6,
+    .contact .contact-info-item,
+    .service .service-item,
+    .about .about-content .experience, 
+    .about .about-content .education,
+     .about .about-content .skills,
+    .about .about-content .personal-info
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
     .tm-portfolio-item {
       flex-direction: column;
     }
@@ -829,6 +846,23 @@ text-align: center;
       padding: 20px 30px;
     }
   
+  }
+  @media (max-width: 600px){
+    *
+    {
+        margin: 0;
+        padding: 0;
+        outline:none;
+        text-decoration: none;
+        box-sizing: border-box;
+    
+    }
+    .style-switcher .style-switcher-toggler,
+    .style-switcher .day-night
+    {
+        color: red;
+        text-align: center;
+    }
   }
 /*responsive*/
 
