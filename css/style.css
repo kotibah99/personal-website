@@ -772,6 +772,7 @@ text-align: center;
         margin-left: 0;
     }
 }
+
 @media (max-width:991px)
 {   
   
@@ -804,11 +805,13 @@ text-align: center;
      .about .about-content .skills,
     .about .about-content .personal-info
     {
-        flex: 0 0 100%;
-        max-width: 100%;
+        flex: 0 0 90%;
+        max-width: 90%;
     }
+    
 }
 @media (max-width: 730px) {
+   
     .tm-portfolio-item {
       flex-direction: column;
     }
@@ -825,6 +828,7 @@ text-align: center;
     .tm-portfolio-description {
       padding: 20px 30px;
     }
+  
   }
 /*responsive*/
 
