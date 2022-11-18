@@ -503,6 +503,7 @@ h3.my-profession
     border-radius: 10px;
     width: 100%;
     position: relative;
+    height: 550px;
 }
 .about .about-content .timeline .timeline-item
 {
@@ -798,8 +799,36 @@ text-align: center;
     }
     .home .home-img
     {
-        display: none;
+        flex: 0 0 40%;
+        max-width: 40%;
+        position: relative;
+        text-align: center;
+        margin-top: 10px;
     }
+    .home-img::after
+    {
+       display: none;
+    }
+    
+    .home-img::before
+    {
+        display: none;
+
+    
+    
+    }
+    .home .home-img img
+    {
+        margin: auto;
+        border-radius: 10px;
+        height: 400px;
+    
+    }
+    .btn
+{
+  display: none
+}
+    
 }
 @media (max-width:767px)
 
