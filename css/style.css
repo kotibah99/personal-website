@@ -503,7 +503,7 @@ h3.my-profession
     border-radius: 10px;
     width: 100%;
     position: relative;
-    height: 550px;
+    height: 100%;
 }
 .about .about-content .timeline .timeline-item
 {
@@ -629,6 +629,7 @@ text-align: center;
     line-height: 25px;
     color: var(--text-black-700);
 } 
+
 
 /* service*/
 
@@ -824,10 +825,7 @@ text-align: center;
         height: 400px;
     
     }
-    .btn
-{
-  display: none
-}
+ 
     
 }
 @media (max-width:767px)
